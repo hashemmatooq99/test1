@@ -50,7 +50,7 @@ return  MaterialApp(
             margin: const EdgeInsets.all(20),
             child:  const TextField(
               decoration: InputDecoration(
-                  label: Text("Enter Your Phone"),
+                  label: Text("Enter your phone"),
                   labelStyle: TextStyle(
                     fontSize: 22,fontWeight: FontWeight.bold,
                   ),
