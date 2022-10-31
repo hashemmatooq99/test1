@@ -6,14 +6,14 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal,
-        leading: const Icon(Icons.menu),
-         title: const Text('First Apps',style: TextStyle
-         (color: Colors.white,fontWeight: FontWeight.bold),),
+         leading: IconButton(
+           onPressed: ()
+           {
+             Navigator.pop(context);
+           },
+           icon: const Icon(Icons.arrow_back_rounded),
+         ),
          // ignore: prefer_const_literals_to_create_immutables
-         actions: [
-          IconButton(icon: const Icon(Icons.search),
-            onPressed: () {  },),
-         ],
          centerTitle: true,
          elevation: 20,
       ),

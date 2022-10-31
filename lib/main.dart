@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:test1/counter_screen.dart';
+import 'package:test1/home.dart';
 import 'package:test1/home_screen.dart';
 import 'package:test1/textbox.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context) {
 return MaterialApp(
   debugShowCheckedModeBanner: false,
-  home: TextBox(),
+  home: FirstScreen(),
 );
   }
 
